@@ -1,3 +1,8 @@
+# How to run
+Change the variable REACT_APP_API_KEY to your own api key when want to run on local environment 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
