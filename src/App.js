@@ -35,12 +35,19 @@ function App() {
     fetchImages();
   }
 
+  function handleEnter(e) {
+    if (e.key === 'Enter') {
+      fetchImages();
+    }
+  }
+
   return (
     <div className="App">
       <nav>
         <input
           type="text"
           onChange={(e) => setInput(e.target.value)}
+          onKeyDown={handleEnter}
           placeholder="Search For Images..."
         />
         <button onClick={handleSearch}>Search</button>
